@@ -1,12 +1,12 @@
 import math
 
-def eulerpj_7() :
-    """10001番目の素数を返す関数"""
+def eulerpj_7(n) :
+    """n番目の素数を返す関数"""
 
     odr=6
     num=14 #6番目までは問題にあるため、7番目から探索を始める
 
-    while odr<=10001:
+    while odr<=n:
         
         if (num%2)==0:
             num+=1
